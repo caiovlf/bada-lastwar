@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ee642e">
+  <meta name="description" content="BaDa leadership charter. Find your leaders, understand responsibilities, and make clear decisions together.">
+  <title>BaDa — Leadership & Responsibilities</title>
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../hub.css">
+  <script src="../charter.js" defer></script>
+  <script src="../app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <aside class="sidebar">
+    <a class="brand" href="../index.html" aria-label="BaDa home"><span class="brand-mark">B<span>↗</span></span><span>BaDa<span class="brand-caption">ALLIANCE COMMAND</span></span></a>
+    <div class="site-nav" aria-label="Site navigation"><a href="../index.html">Home <span>↗</span></a><a href="../rules/index.html">Alliance rules <span>↗</span></a><a href="index.html" aria-current="page">Leadership <span>↗</span></a></div><div class="sidebar-label">LEADERSHIP HANDBOOK</div>
+    <nav aria-label="Main navigation">
+      <a class="nav-link active" href="#overview"><span class="nav-icon">◈</span> Overview <span class="nav-arrow">↗</span></a>
+      <a class="nav-link" href="#team"><span class="nav-icon">♧</span> Leadership team <span class="nav-count">09</span></a>
+      <a class="nav-link" href="#roles"><span class="nav-icon">▦</span> Roles & responsibilities <span class="nav-count">10</span></a>
+      <a class="nav-link" href="#decisions"><span class="nav-icon">◇</span> Decision-making</a>
+      <a class="nav-link" href="#collaboration"><span class="nav-icon">⇄</span> Working together</a>
+      <a class="nav-link" href="#culture"><span class="nav-icon">✳</span> Our culture</a>
+    </nav>
+    <div class="sidebar-note"><span class="small-cross">✳</span><p>Different responsibilities.<br>One shared mission.</p><span>STRONGER, TOGETHER.</span></div>
+    <div class="sidebar-footer"><span class="status-dot"></span> Leadership Charter <b>v1.0</b></div>
+  </aside>
+  <div class="workspace">
+    <header class="topbar"><div><a href="../index.html">BaDa</a> <span>/</span> Alliance leadership <span class="language-note">ENGLISH</span></div><button class="print-button" id="print-button" type="button"><span aria-hidden="true">↗</span> Print charter</button></header>
+    <main id="main">
+      <section id="overview" class="section overview">
+        <div class="eyebrow"><span class="status-dot"></span> THE BADA LEADERSHIP CHARTER <span class="version">VERSION 1.0</span></div>
+        <div class="hero"><div><h1>Clear roles.<br><span>Stronger alliance.</span></h1><p>A shared playbook for the people moving BaDa forward.<br class="desktop-break"> Know who owns what, how we decide, and how we win together.</p><a class="primary-button" href="#roles">Explore responsibilities <span>↗</span></a></div><div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="art-label">BUILT ON<br>SHARED PURPOSE</span><div class="star">✳</div><span class="art-bottom">BADA BING, BADA BOOM. ↗</span></div></div>
+        <div class="stats"><a href="#team"><strong>09</strong><div>R4 leaders<span>A team with clear ownership</span></div><span>↗</span></a><a href="#roles"><strong>10</strong><div>Leadership roles<span>Every area, accounted for</span></div><span>↗</span></a><a href="#culture"><strong>01</strong><div>Shared mission<span>A stronger BaDa for everyone</span></div><span>↗</span></a></div>
+        <div class="purpose-banner"><span>THE COMMITMENT</span><p>Being an R4 is more than a title.<br><strong>It is a commitment to the alliance and its members.</strong></p><span class="banner-star" aria-hidden="true">✳</span></div>
+        <details class="purpose-details"><summary>Why this structure exists <span>+</span></summary><div id="purpose-content" class="prose"></div></details>
+      </section>
+
+      <section id="team" class="section"><div class="section-heading"><div><span class="eyebrow">01 / THE PEOPLE</span><h2>Leadership team<span class="heading-dot">.</span></h2><p>Nine leaders. Complementary strengths. Shared accountability.</p></div><span class="section-tag">R4 ROSTER</span></div>
+        <div class="ownership-guide"><div><span class="role-badge main-badge">MAIN</span><p><strong>Own the outcome.</strong> Plan, decide, delegate, and follow through.</p></div><div><span class="role-badge support-badge">SUPPORT</span><p><strong>Make it happen, together.</strong> Collaborate, execute, and step in.</p></div></div>
+        <div class="team-table-wrap"><table class="team-table"><thead><tr><th>LEADER</th><th>MAIN RESPONSIBILITIES</th><th>SUPPORT</th></tr></thead><tbody id="team-body"></tbody></table></div>
+        <details class="purpose-details"><summary>Main vs. support: how ownership works <span>+</span></summary><div id="ownership-content" class="prose"></div></details>
+      </section>
+
+      <section id="roles" class="section"><div class="section-heading"><div><span class="eyebrow">02 / THE RESPONSIBILITIES</span><h2>Every role has a purpose<span class="heading-dot">.</span></h2><p>Find the right owner. Understand the scope. Get things moving.</p></div></div>
+        <div class="role-toolbar"><label class="search-box"><span aria-hidden="true">⌕</span><input id="role-search" type="search" placeholder="Search a role, leader, or responsibility…" aria-label="Search roles, leaders and responsibilities"><kbd>/</kbd></label><button id="expand-all" class="subtle-button" type="button">Expand all <span>+</span></button></div>
+        <div class="filters" aria-label="Filter roles"><button class="filter active" data-filter="all" aria-pressed="true">All roles <span>10</span></button><button class="filter" data-filter="strategy" aria-pressed="false">Strategy & combat</button><button class="filter" data-filter="people" aria-pressed="false">People & community</button><button class="filter" data-filter="operations" aria-pressed="false">Events & operations</button></div>
+        <div id="role-grid" class="role-grid"></div><p id="empty-state" class="empty-state" hidden>No matching roles. Try another search or select “All roles”.</p><p id="results-count" class="results-count" aria-live="polite"></p>
+      </section>
+
+      <section id="decisions" class="section"><div class="section-heading"><div><span class="eyebrow">03 / TRUST & AUTONOMY</span><h2>Empowered to act.<br>Accountable for the impact<span class="heading-dot">.</span></h2><p>Autonomy works best when everyone knows where alignment matters.</p></div></div><div id="decisions-intro" class="prose"></div><div class="decision-grid"><article class="decision-card independent"><span class="decision-icon">↗</span><h3>Take ownership</h3><p>Decisions R4s can generally make independently.</p><ul id="independent-list"></ul></article><article class="decision-card aligned"><span class="decision-icon">⇄</span><h3>Align with leadership</h3><p>Bring the relevant owners together before acting.</p><ul id="aligned-list"></ul></article></div><p id="decision-note" class="decision-note"></p></section>
+
+      <section id="collaboration" class="section"><div class="section-heading"><div><span class="eyebrow">04 / HOW WE WORK</span><h2>Ownership is individual.<br>Progress is a team effort<span class="heading-dot">.</span></h2><p>A few simple principles to keep us coordinated and effective.</p></div></div><div id="principles" class="principles"></div><div class="checkin"><div><span class="eyebrow">THE WEEKLY CHECK-IN</span><h3>A little visibility.<br>A lot more momentum.</h3><p>A short update from each area is enough. Keep the focus on coordination and accountability.</p></div><ol><li><span>01</span><div><strong>Completed</strong><p>What was accomplished?</p></div></li><li><span>02</span><div><strong>In progress</strong><p>What are we currently working on?</p></div></li><li><span>03</span><div><strong>Issues</strong><p>Is anything blocked or requiring leadership support?</p></div></li><li><span>04</span><div><strong>Next steps</strong><p>What should happen next?</p></div></li></ol></div></section>
+
+      <section id="culture" class="section culture"><div class="culture-symbol" aria-hidden="true">✳</div><span class="eyebrow">05 / THE BADA WAY</span><h2>Different roles.<br>The same home.</h2><div id="culture-content" class="prose"></div><div class="culture-signoff">Bada Bing, Bada Boom! <span>↗</span></div></section>
+      <footer class="page-footer"><a href="#overview" class="footer-brand">BaDa<span>ALLIANCE LEADERSHIP</span></a><span>Leadership Charter · Version 1.0</span><a href="#overview">Back to top ↑</a></footer>
+    </main>
+  </div>
+</body>
+</html>
