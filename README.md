@@ -10,9 +10,9 @@ The published site uses GitHub Pages at https://bada-lastwar.com/. The rules and
 
 - `index.html`: home, available in English, Portuguese, Spanish, Korean, Vietnamese, and German.
 - `rules/index.html`: fourteen alliance rules and the disciplinary guidelines in the same six languages. The original text and translations were extracted without changes from `BADA RULES_V1.html`.
-- `leadership/index.html`: the existing Leadership Charter v1.0, preserved in English.
+- `leadership/index.html`: Leadership Charter v1.0 in the same six languages, including responsibilities, authority, team assignments, and guidance. All ten role cards start expanded and can be collapsed individually or together.
 
-Home and rules share the original `bada-idioma` language preference. If browser storage is unavailable, both default to English. The leadership page is explicitly labeled English.
+All three pages share a language selector: English, Portuguese, Spanish, Korean, Vietnamese, and German. A new browser session starts in English; an explicit choice is kept in session storage while navigating. If storage is unavailable, English is the default. The leadership overview refers to leaders collectively; specific R5 approval responsibilities remain in the charter.
 
 ## Features
 
@@ -34,5 +34,8 @@ Home and rules share the original `bada-idioma` language preference. If browser 
 - `rules.js`: rules rendering, language selection, search, and printing.
 - `charter.js`: original English content and assignments.
 - `app.js`: content rendering, search, navigation, and printing.
+- `language.js`: shared session language preference and English default.
+- `leadership-i18n.js`: translated leadership content and interface labels.
+- `brand.css`, `assets/brand/`: the crowned lion identity in black, gold, and crimson, shared across all pages.
 
 For a local HTTP preview, run `node server.cjs` and open http://127.0.0.1:4173. Stop the server with Ctrl+C.
