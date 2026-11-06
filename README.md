@@ -36,6 +36,6 @@ All three pages share a language selector: English, Portuguese, Spanish, Korean,
 - `app.js`: content rendering, search, navigation, and printing.
 - `language.js`: shared session language preference and English default.
 - `leadership-i18n.js`: translated leadership content and interface labels.
-- `brand.css`, `assets/brand/`: the crowned lion identity in black, gold, and crimson, shared across all pages.
+- `brand.css`, `private-club.css`, `assets/brand/`: shared identity and The Private Club theme, with a fedora lion, diamond crest, aged gold, burgundy, pinstripes, and Art Deco details. The original crowned lion assets are retained.
 
 For a local HTTP preview, run `node server.cjs` and open http://127.0.0.1:4173. Stop the server with Ctrl+C.

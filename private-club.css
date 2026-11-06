@@ -1,0 +1,95 @@
+/* The Private Club — approved fedora lion and shield diamond direction. */
+:root{--paper:#101010;--ink:#eee4cc;--muted:#beb4a2;--line:#3e3427;--accent:#c5a15a;--green:#c5a15a;--gold:#c5a15a;--gold-light:#eee4cc;--crimson:#641d28;--surface:#181614}
+body{background-color:var(--paper);background-image:repeating-linear-gradient(90deg,transparent 0,transparent 59px,#c5a15a07 59px,#c5a15a07 60px)}
+.sidebar{background:#121110;border-color:#59452b}
+.brand{font-family:Georgia,'Times New Roman',serif;letter-spacing:-1px;font-size:31px}
+.brand-caption{font-family:'Segoe UI',Arial,sans-serif;font-size:7px;letter-spacing:2px;color:var(--gold);margin-top:6px}
+.brand-logo{border-radius:4px;border-color:#796037}
+.sidebar-label{letter-spacing:2px;color:#c0a572;font-size:8px}
+.sidebar-note{border-top:1px solid #3e3427;margin-top:auto;padding-bottom:25px}
+.sidebar-note p{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:17px;line-height:1.6;color:#e1d3b4}
+.sidebar-note>span:last-child{letter-spacing:1.9px;color:var(--gold)}
+.topbar{background:#141211;border-bottom-color:#59452b}
+.site-nav>a,.nav-link,.filter,.primary-button,.print-button,.subtle-button,.language-control select{border-radius:2px}
+.site-nav>a[aria-current=page],.nav-link.active{background:linear-gradient(90deg,#38191e,#211719);color:#eee4cc;box-shadow:inset 2px 0 #c5a15a}
+.site-nav>a:hover,.nav-link:hover{background:#251a1a}
+.language-control select{background:#1e1817;border-color:#6d5430;color:#eee4cc}
+.eyebrow{letter-spacing:2px;color:var(--gold)}
+h1,h2,.handbook-card h3,.hub-bottom h3,.culture-signoff{font-family:Georgia,'Times New Roman',serif;font-weight:400;color:#eee4cc}
+h1,.hub-hero h1{font-size:clamp(42px,4.7vw,70px);letter-spacing:-2px;line-height:1.12}
+h1>span{color:#c5a15a}
+h2{letter-spacing:-.6px;font-size:34px;line-height:1.2}
+.hero p{font-size:13px;color:#c9beac}
+.hero-art,.hub-hero .hero-art{position:relative;padding:26px;background:radial-gradient(ellipse at center,#47192288,transparent 68%);border:1px solid #5f482b;border-radius:0;overflow:hidden}
+.hero-art::before,.hero-art::after{content:"";display:block;position:absolute;width:34px;height:34px;background:none;transform:none;border:0;pointer-events:none}
+.hero-art::before{left:8px;top:8px;border-left:2px solid #c5a15a;border-top:2px solid #c5a15a}
+.hero-art::after{left:auto;top:auto;right:8px;bottom:8px;border-right:2px solid #c5a15a;border-bottom:2px solid #c5a15a}
+.hero-crest{max-width:460px;filter:drop-shadow(0 10px 22px #0009)}
+.primary-button{background:linear-gradient(110deg,#d9bc79,#c5a15a);border-color:#d9bc79;color:#17130e;font-weight:650;letter-spacing:.2px}
+.primary-button:hover{background:#eee4cc;border-color:#eee4cc}
+.primary-button:focus-visible,.text-button:focus-visible{outline-color:#eee4cc}
+.purpose-banner{background:linear-gradient(100deg,#35191e,#1e1716);border:1px solid #61432e;border-left:3px solid #641d28;border-radius:0}
+.purpose-banner strong{color:#eee4cc}
+.version,.section-tag{border-color:#715834;color:#d2b477;border-radius:0}
+.handbook-card{position:relative;background:#181514;border:1px solid #60492b;border-top:3px double #9c7b43;border-radius:0}
+.handbook-card:hover{background:#26191b;border-color:#c5a15a}
+.handbook-card::after{content:"";position:absolute;width:13px;height:13px;right:8px;top:8px;border-top:1px solid #c5a15a;border-right:1px solid #c5a15a;pointer-events:none}
+.handbook-card h3{font-size:29px;letter-spacing:-.6px}
+.handbook-card .eyebrow{letter-spacing:1.6px}
+.language-chips span{border-color:#49392b;border-radius:0;color:#c9beac}
+.discord-card{background:linear-gradient(105deg,#361a21,#191514 75%);border:1px solid #987640;border-left:3px solid #641d28;border-radius:0;box-shadow:inset 0 0 0 5px #101010,inset 0 0 0 6px #5f482b}
+.discord-copy h2{font-size:28px;font-weight:400}
+.discord-lion{border-radius:2px;border-color:#a28349}
+.discord-address{color:#c5ad80}
+.hub-bottom,.culture{background:linear-gradient(120deg,#371b22,#1c1517);border:1px solid #755538;border-radius:0;box-shadow:inset 0 0 0 5px #151110,inset 0 0 0 6px #4c3629}
+.hub-bottom{padding:35px}.hub-bottom h3{color:#eee4cc}
+.culture{padding:40px}.culture h2{font-size:44px;letter-spacing:-1px}
+.culture .prose strong,.culture-signoff{color:#eee4cc}
+.value-item{border-color:#755a33}
+.stats{background:#1b1615;border-color:#755a33;border-radius:0}
+.stats strong{font-family:Georgia,'Times New Roman',serif;color:#d2b477}
+.ownership-guide,.search-box,.role-card,.decision-card,.checkin,.consequences{border-radius:1px}
+.ownership-guide{background:#171413;border-color:#4c3b29}
+.role-card{background:#181514;border-color:#5a442b;border-top:2px solid #8e6e3e}
+.role-card:hover{border-color:#c5a15a}
+.role-card h3{color:#eee4cc;font-weight:600}
+.card-number{color:#c5a15a;letter-spacing:1.4px}
+.authority-box{background:#281b1c;border-left-color:#8a4149}
+.main-badge{background:#302719;color:#e6d3aa}.support-badge{background:#391b24;color:#edc5ca}
+.team-table th{color:#d2b477;border-bottom:1px solid #8c6d3d}
+.team-table td{border-bottom-color:#3e3427}
+.team-table .table-role{color:#d9cdb7}.team-table .table-role:hover{color:#e5c886}
+.avatar,.avatar.tone-1,.avatar.tone-2{background:#2b1a1d;color:#e1c794;border-color:#806138}
+.filter.active{background:#371b23;border-color:#8b6b3d;color:#eee4cc}
+.search-box{background:#181514;border-color:#67502f}
+.decision-card{background:#211a16;border-color:#735734}.decision-card.aligned{background:#2b181f;border-color:#694047}
+.checkin{background:#211818;border:1px solid #5f4331}
+.rule-number{background:#321c22;color:#e1c794;border:1px solid #6b4937;border-radius:0}
+.rule code{background:#221a18;border-color:#634b32;color:#e1c794}
+.rule-emphasis{background:#2d1b21;border-left-color:#b08b4e;color:#e5cba3}
+.consequences{background:#2a171e;border-color:#75434e}
+.rule:target{background:#291c20;outline-color:#291c20}
+.footer-brand{font-family:Georgia,'Times New Roman',serif;font-size:23px;font-weight:400;color:#d2b477}
+.footer-brand span{font-family:'Segoe UI',Arial,sans-serif;letter-spacing:1.6px}
+.page-footer{border-top:1px solid #71552f}
+@media(max-width:1100px){h1,.hub-hero h1{font-size:48px}.hero-art,.hub-hero .hero-art{padding:18px}.culture{padding:32px}}
+@media(max-width:760px){
+ .brand{font-size:28px}.brand-caption{font-size:7px}.sidebar{border-bottom:1px solid #71552f}
+ .sidebar-note{display:none}.hero-art,.hub-hero .hero-art{width:min(100%,330px);padding:20px}
+ h1,.hub-hero h1{font-size:clamp(37px,7vw,53px);letter-spacing:-1.3px}h2{font-size:30px}
+ .handbook-card h3{font-size:27px}.culture h2{font-size:36px}.culture{padding:30px 25px}
+ .discord-copy h2{font-size:28px}.hub-bottom{padding:28px}
+}
+@media(max-width:480px){
+ .hero-art,.hub-hero .hero-art{width:min(82vw,310px);padding:16px}
+ h1,.hub-hero h1{font-size:clamp(36px,10vw,48px)}
+ .hero-art::before,.hero-art::after{width:23px;height:23px}
+ .hub-bottom{padding:25px}.culture h2{font-size:33px}.discord-copy h2{font-size:27px}
+ .discord-card{padding:27px}.rules-overview h1{font-size:38px}
+}
+@media print{
+ body{background:white!important}
+ h1,h2,h3,.handbook-card h3,.hub-bottom h3,.culture-signoff,.team-table .table-role{color:#222!important}
+ .discord-card,.hub-bottom,.culture,.handbook-card,.role-card,.stats,.checkin,.consequences,.purpose-banner,.ownership-guide{background:white!important;box-shadow:none;border-color:#aaa}
+ .hero-art::before,.hero-art::after,.handbook-card::after{display:none!important}
+}
