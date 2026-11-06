@@ -46,6 +46,17 @@ h1>span,.heading-dot{color:var(--gold)}
 .language-chips span{font-size:9px;color:#c4bcaf}
 .hub-bottom{background:linear-gradient(110deg,#2b1d16,#1d1914);border:1px solid #5c3926;border-left:3px solid var(--crimson)}
 .hub-bottom h3{color:var(--gold-light)}
+.discord-section{padding-top:30px;scroll-margin-top:24px}
+.discord-card{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:26px;align-items:center;padding:30px;background:linear-gradient(115deg,#261d13,#171513 70%);border:1px solid #6b4f2b;border-left:3px solid var(--crimson);border-radius:6px}
+.discord-lion{display:block;width:92px;height:92px;border-radius:50%;border:1px solid #6b4f2b;object-fit:contain}
+.discord-copy h2{font-size:27px;line-height:1.2;letter-spacing:-.8px;margin:12px 0}
+.discord-copy p{font-size:13px;line-height:1.8;color:#c4bcaf;max-width:510px;margin:0}
+.discord-action{display:flex;flex-direction:column;align-items:center;gap:12px}
+.discord-action .primary-button{width:100%;white-space:nowrap;min-height:48px}
+.discord-address{font-size:10px;color:#bba577;overflow-wrap:anywhere}
+@media(max-width:1100px){.discord-card{grid-template-columns:72px minmax(0,1fr);gap:20px;padding:25px}.discord-lion{width:72px;height:72px}.discord-action{grid-column:2;align-items:flex-start}.discord-action .primary-button{width:auto}}
+@media(max-width:480px){.discord-card{grid-template-columns:1fr;padding:25px;gap:18px}.discord-lion{width:64px;height:64px}.discord-copy h2{font-size:27px}.discord-action{grid-column:auto;align-items:stretch}.discord-address{text-align:center}.discord-section{padding-top:24px}}
+@media print{.discord-card{background:white;border-color:#aaa}.discord-lion{display:none}.discord-card{grid-template-columns:1fr}.discord-action{grid-column:auto}.discord-address{color:#333}}
 .value-item>span,.rule-number,.card-number{color:var(--gold)}
 .footer-brand{color:var(--gold-light)}.footer-brand span,.page-footer{color:#bdb09b}
 .print-button,.subtle-button{color:var(--gold-light);border-color:#625034;min-height:40px}
